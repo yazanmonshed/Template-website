@@ -239,6 +239,7 @@ header .buttons button:hover {
   background-image: url('../images/testimonials.png');
   background-size: cover;
   background-position: 50% 50%;
+  background-attachment: fixed;
   height: 400px;
   margin-top: 50px;
   color: #FFF;
@@ -268,3 +269,96 @@ header .buttons button:hover {
   padding-top: 300px;
   font-size: 40px
 }
+.arrows .arrow-right,
+.arrows .arrow-left:hover {
+  color: #F7600E
+}
+/* Start New Section Here  */
+.our-team {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.our-team .header-our-team h1 {
+
+    text-transform: uppercase;
+}
+.our-team .header-our-team h1 span {color: #F7600E }
+.our-team .header-our-team p {
+  margin-bottom: 40px
+}
+.our-team .team .members {
+   width: 25%;
+   float: left;
+
+}
+.our-team .team .members h4 {
+
+  font-weight: bolder
+
+}
+.our-team .team .members i {font-size: 30px; padding-left: 30px}
+
+.our-team .team .members .fa-facebook-f {color:#3b5998}
+.our-team .team .members .fa-twitter {color: #0099e5}
+.our-team .team .members .fa-google-plus-g{color: #dd4b39}
+.our-team .team .members p {
+   padding-left: 30px
+}
+
+/* new section here */
+
+.form-section  {
+  background-image: url('../images/header.jpg');
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  height: 500px;
+  padding-top: 50px;
+  color: #FFF;
+  font-weight: bold
+}
+
+.form-section .header-from {
+  text-align: center;
+}
+.form-section .header-from h1 {
+  text-transform: uppercase;
+}
+.form-section .header-from h1 span{color: #F7600E}
+
+.form-section .forms {
+
+}
+.form-section .forms .one {
+    width: 50%;
+      float: left;
+}
+.form-section .forms .one input[type="text"] {width: 90%; padding: 10px; border-radius: 10px}
+.form-section .forms .two {
+  width: 50%;
+  float: right;
+}
+.form-section .forms .two input[type="text"] {width: 90%;padding: 10px; border-radius: 10px};
+
+.form-section textarea {
+  width: 97%;
+  border-radius: 15px;
+  margin-top: 12px;
+  height: 140px;
+}
+
+.form-section .socail-media {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+
+}
+.form-section .socail-media .fab {margin-left: 20px; font-weight: bolder}
+
+.form-section .socail-media .fa-google-plus-g{color: #dd4b39}
+.fa-google-plus-g{color: #dd4b39}
+.fa-twitter {color: #0099e5}
+.fa-facebook-f {color:#3b5998}
+
+
+/* end Design .... */

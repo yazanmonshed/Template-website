@@ -22,4 +22,20 @@ $(function(){
         $('.hidden').fadeIn();
 
     });
+
+    // var ArrowLeft  =  $('.arrow-left .fa-angle-left ');
+    //
+    // var ArrowRight =  $('.arrow-right .fa-angle-right');
+    //
+    // function CheckArrow() {
+    //
+    //   if ($('.client:first')).hasClass('active') {
+    //
+    //        ArrowLeft.fadeOut();
+    //   } else {
+    //
+    //       ArrowLeft.fadeIn();
+    //   }
+    // }
+    // CheckArrow();
 });
