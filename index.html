@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet">
     <link rel="stylesheet" href="css/all.css"/>
     <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -18,7 +19,7 @@
           <span><i class="fas fa-bars"></i>Menu</span>
         </nav>
         <div class="content">
-          <h2>We Design<span> Thangs<span></h2>
+          <h2  class="wow fadeInUp">We Design<span> Thangs<span></h2>
           <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br/>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
       </div>
         <div class="buttons">
@@ -32,7 +33,7 @@
     </div>
   </header>
   <!--start Featuers Here -->
-    <section class="featuers">
+    <section class="featuers wow bounceInUp" data-wow-offset='500'>
       <div class="container">
       <div class="feat">
         <i class="fas fa-print"></i>
@@ -61,10 +62,10 @@
     <section class="concat-us">
       <div class="overlay">
       <div class="container">
-        <div class="concat-froms">
+        <div class="concat-froms ">
             <form>
-              <input type="text" name="concat" placeholder="Enter Your Email Here Now"/>
-              <button>Subsribe</button>
+              <input class="wow fadeInLeft" data-wow-offset='500' type="text" name="concat" placeholder="Enter Your Email Here Now"/>
+              <button class="wow fadeInRight" data-wow-offset='500'>Subsribe</button>
           <div>
       </div>
     </div>
@@ -266,5 +267,7 @@
     <script src="js/jquery.3.3.1.js"></script>
     <script scr="js/jquery.nicescroll.min.js"></script>
     <script src="js/plugin.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init(); </script>
   </body>
 </html>
